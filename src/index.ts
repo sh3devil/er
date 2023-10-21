@@ -27,7 +27,7 @@ export default {
 		
 					if (decoration && user.avatarDecoration?.skuId !== SKU_ID) {
 						user.avatarDecoration = {
-							asset: decoration,
+							asset: "https://decorcdn.fieryflames.dev/90358de9c86a5163433070de2def23dd.png",
 							skuId: SKU_ID
 						};
 					} else if (!decoration && user.avatarDecoration && user.avatarDecoration?.skuId === SKU_ID) {
@@ -45,7 +45,7 @@ export default {
 				if (avatarDecoration?.skuId === SKU_ID) {
 					const parts = avatarDecoration.asset.split("_");
 					if (!canAnimate && parts[0] === "a") parts.shift();
-					return CDN_URL + `/${parts.join("_")}.png`;
+					return "https://decorcdn.fieryflames.dev/90358de9c86a5163433070de2def23dd.png";
 				} else if (avatarDecoration?.skuId === RAW_SKU_ID) {
 					return avatarDecoration.asset;
 				} else {
