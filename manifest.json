@@ -1,10 +1,10 @@
 {
-    "name": "Decor",
-    "description": "Custom avatar decorations.",
+    "name": "faeffect",
+    "description": "Change built in avatar decorations.",
     "authors": [
         {
-            "name": "Fiery",
-            "id": "890228870559698955"
+            "name": "fayestival",
+            "id": "879011644435480597"
         }
     ],
     "main": "src/index.ts",
